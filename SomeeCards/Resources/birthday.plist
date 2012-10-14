@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/15387428.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/15387428.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/2053504.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/2053504.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/2054200.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/2054200.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/2055720.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/2055720.png</string>
+	</array>
+</array>
+</plist>

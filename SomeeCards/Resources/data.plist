@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>categories</key>
+	<array>
+		<string>new (updated 3.17)</string>
+		<string>animals</string>
+		<string>adults and children</string>
+		<string>baby</string>
+		<string>birthday</string>
+		<string>boys</string>
+		<string>bride</string>
+		<string>children</string>
+		<string>drinking</string>
+		<string>food</string>
+		<string>girls</string>
+		<string>holidays</string>
+		<string>machines</string>
+		<string>medical</string>
+		<string>men</string>
+		<string>men and women</string>
+		<string>music</string>
+		<string>religion</string>
+		<string>sports</string>
+		<string>wedding</string>
+		<string>women</string>
+		<string>workplace</string>
+	</array>
+	<key>colors</key>
+	<array>
+		<string>#dbeae6</string>
+		<string>#d1e7f4</string>
+		<string>#ade2f9</string>
+		<string>#79afe0</string>
+		<string>#95b9da</string>
+		<string>#7a8cab</string>
+		<string>#b7ebef</string>
+		<string>#a5e0dd</string>
+		<string>#91bfcb</string>
+		<string>#94b8bc</string>
+		<string>#d0d7df</string>
+		<string>#cfcfcf</string>
+		<string>#bdd2d1</string>
+		<string>#939ea5</string>
+		<string>#b9bed4</string>
+		<string>#c4abb1</string>
+		<string>#c58aae</string>
+		<string>#e5c9b9</string>
+		<string>#ffafbc</string>
+		<string>#ff8b9d</string>
+		<string>#df8d94</string>
+		<string>#ff4d6c</string>
+		<string>#fbffb3</string>
+		<string>#f7f376</string>
+		<string>#e1bc7c</string>
+		<string>#ffd794</string>
+		<string>#ffbd4c</string>
+		<string>#e2e1c6</string>
+		<string>#e1e0b9</string>
+		<string>#ceb88e</string>
+		<string>#77e66d</string>
+		<string>#9fe0b5</string>
+		<string>#a3dc9d</string>
+		<string>#4ed470</string>
+		<string>#67a582</string>
+		<string>#cbd598</string>
+		<string>#cbbdb4</string>
+		<string>#bed9c9</string>
+		<string>#cfb88e</string>
+		<string>#8fb6a3</string>
+	</array>
+</dict>
+</plist>

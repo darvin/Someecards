@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/996063.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/996063.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/996125.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/996125.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/996145.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/996145.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/1001729.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/1001729.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/2064262.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/2064262.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/2055742.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/2055742.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/2057330.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/2057330.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/2063750.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/2063750.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/2064372.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/2064372.png</string>
+	</array>
+</array>
+</plist>

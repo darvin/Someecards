@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		573C6AAF16275CA60061908A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573C6AAE16275CA60061908A /* UIKit.framework */; };
+		573C6AB116275CA60061908A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573C6AB016275CA60061908A /* Foundation.framework */; };
+		573C6AB316275CA60061908A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573C6AB216275CA60061908A /* CoreGraphics.framework */; };
+		573C6AB916275CA60061908A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AB716275CA60061908A /* InfoPlist.strings */; };
+		573C6ABB16275CA60061908A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 573C6ABA16275CA60061908A /* main.m */; };
+		573C6ABF16275CA60061908A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 573C6ABE16275CA60061908A /* AppDelegate.m */; };
+		573C6AC116275CA60061908A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AC016275CA60061908A /* Default.png */; };
+		573C6AC316275CA60061908A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AC216275CA60061908A /* Default@2x.png */; };
+		573C6AC516275CA60061908A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AC416275CA60061908A /* Default-568h@2x.png */; };
+		573C6AC816275CA60061908A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AC616275CA60061908A /* MainStoryboard_iPhone.storyboard */; };
+		573C6ACB16275CA60061908A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AC916275CA60061908A /* MainStoryboard_iPad.storyboard */; };
+		573C6ACE16275CA60061908A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573C6ACD16275CA60061908A /* ViewController.m */; };
+		573C6AEC16275D020061908A /* adults and children.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AD516275D020061908A /* adults and children.plist */; };
+		573C6AED16275D020061908A /* animals.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AD616275D020061908A /* animals.plist */; };
+		573C6AEE16275D020061908A /* baby.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AD716275D020061908A /* baby.plist */; };
+		573C6AEF16275D020061908A /* birthday.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AD816275D020061908A /* birthday.plist */; };
+		573C6AF016275D020061908A /* boys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AD916275D020061908A /* boys.plist */; };
+		573C6AF116275D020061908A /* bride.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6ADA16275D020061908A /* bride.plist */; };
+		573C6AF216275D020061908A /* children.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6ADB16275D020061908A /* children.plist */; };
+		573C6AF316275D020061908A /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6ADC16275D020061908A /* data.plist */; };
+		573C6AF416275D020061908A /* drinking.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6ADD16275D020061908A /* drinking.plist */; };
+		573C6AF516275D020061908A /* food.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6ADE16275D020061908A /* food.plist */; };
+		573C6AF616275D020061908A /* girls.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6ADF16275D020061908A /* girls.plist */; };
+		573C6AF716275D020061908A /* holidays.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AE016275D020061908A /* holidays.plist */; };
+		573C6AF816275D020061908A /* machines.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AE116275D020061908A /* machines.plist */; };
+		573C6AF916275D020061908A /* medical.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AE216275D020061908A /* medical.plist */; };
+		573C6AFA16275D020061908A /* men and women.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AE316275D020061908A /* men and women.plist */; };
+		573C6AFB16275D020061908A /* men.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AE416275D020061908A /* men.plist */; };
+		573C6AFC16275D020061908A /* music.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AE516275D020061908A /* music.plist */; };
+		573C6AFD16275D020061908A /* new (updated 3.17).plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AE616275D020061908A /* new (updated 3.17).plist */; };
+		573C6AFE16275D020061908A /* religion.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AE716275D020061908A /* religion.plist */; };
+		573C6AFF16275D020061908A /* sports.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AE816275D020061908A /* sports.plist */; };
+		573C6B0016275D020061908A /* wedding.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AE916275D020061908A /* wedding.plist */; };
+		573C6B0116275D020061908A /* women.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AEA16275D020061908A /* women.plist */; };
+		573C6B0216275D020061908A /* workplace.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C6AEB16275D020061908A /* workplace.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		573C6AAA16275CA60061908A /* SomeeCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomeeCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		573C6AAE16275CA60061908A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		573C6AB016275CA60061908A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		573C6AB216275CA60061908A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		573C6AB616275CA60061908A /* SomeeCards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SomeeCards-Info.plist"; sourceTree = "<group>"; };
+		573C6AB816275CA60061908A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		573C6ABA16275CA60061908A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		573C6ABC16275CA60061908A /* SomeeCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SomeeCards-Prefix.pch"; sourceTree = "<group>"; };
+		573C6ABD16275CA60061908A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		573C6ABE16275CA60061908A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		573C6AC016275CA60061908A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		573C6AC216275CA60061908A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		573C6AC416275CA60061908A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		573C6AC716275CA60061908A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		573C6ACA16275CA60061908A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		573C6ACC16275CA60061908A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		573C6ACD16275CA60061908A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		573C6AD516275D020061908A /* adults and children.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "adults and children.plist"; sourceTree = "<group>"; };
+		573C6AD616275D020061908A /* animals.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = animals.plist; sourceTree = "<group>"; };
+		573C6AD716275D020061908A /* baby.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = baby.plist; sourceTree = "<group>"; };
+		573C6AD816275D020061908A /* birthday.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = birthday.plist; sourceTree = "<group>"; };
+		573C6AD916275D020061908A /* boys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = boys.plist; sourceTree = "<group>"; };
+		573C6ADA16275D020061908A /* bride.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bride.plist; sourceTree = "<group>"; };
+		573C6ADB16275D020061908A /* children.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = children.plist; sourceTree = "<group>"; };
+		573C6ADC16275D020061908A /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		573C6ADD16275D020061908A /* drinking.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = drinking.plist; sourceTree = "<group>"; };
+		573C6ADE16275D020061908A /* food.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = food.plist; sourceTree = "<group>"; };
+		573C6ADF16275D020061908A /* girls.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = girls.plist; sourceTree = "<group>"; };
+		573C6AE016275D020061908A /* holidays.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = holidays.plist; sourceTree = "<group>"; };
+		573C6AE116275D020061908A /* machines.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = machines.plist; sourceTree = "<group>"; };
+		573C6AE216275D020061908A /* medical.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = medical.plist; sourceTree = "<group>"; };
+		573C6AE316275D020061908A /* men and women.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "men and women.plist"; sourceTree = "<group>"; };
+		573C6AE416275D020061908A /* men.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = men.plist; sourceTree = "<group>"; };
+		573C6AE516275D020061908A /* music.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = music.plist; sourceTree = "<group>"; };
+		573C6AE616275D020061908A /* new (updated 3.17).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "new (updated 3.17).plist"; sourceTree = "<group>"; };
+		573C6AE716275D020061908A /* religion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = religion.plist; sourceTree = "<group>"; };
+		573C6AE816275D020061908A /* sports.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sports.plist; sourceTree = "<group>"; };
+		573C6AE916275D020061908A /* wedding.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wedding.plist; sourceTree = "<group>"; };
+		573C6AEA16275D020061908A /* women.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = women.plist; sourceTree = "<group>"; };
+		573C6AEB16275D020061908A /* workplace.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = workplace.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		573C6AA716275CA60061908A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573C6AAF16275CA60061908A /* UIKit.framework in Frameworks */,
+				573C6AB116275CA60061908A /* Foundation.framework in Frameworks */,
+				573C6AB316275CA60061908A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		573C6A9F16275CA60061908A = {
+			isa = PBXGroup;
+			children = (
+				573C6AD416275D020061908A /* Resources */,
+				573C6AB416275CA60061908A /* SomeeCards */,
+				573C6AAD16275CA60061908A /* Frameworks */,
+				573C6AAB16275CA60061908A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		573C6AAB16275CA60061908A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				573C6AAA16275CA60061908A /* SomeeCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		573C6AAD16275CA60061908A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				573C6AAE16275CA60061908A /* UIKit.framework */,
+				573C6AB016275CA60061908A /* Foundation.framework */,
+				573C6AB216275CA60061908A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		573C6AB416275CA60061908A /* SomeeCards */ = {
+			isa = PBXGroup;
+			children = (
+				573C6ABD16275CA60061908A /* AppDelegate.h */,
+				573C6ABE16275CA60061908A /* AppDelegate.m */,
+				573C6AC616275CA60061908A /* MainStoryboard_iPhone.storyboard */,
+				573C6AC916275CA60061908A /* MainStoryboard_iPad.storyboard */,
+				573C6ACC16275CA60061908A /* ViewController.h */,
+				573C6ACD16275CA60061908A /* ViewController.m */,
+				573C6AB516275CA60061908A /* Supporting Files */,
+			);
+			path = SomeeCards;
+			sourceTree = "<group>";
+		};
+		573C6AB516275CA60061908A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				573C6AB616275CA60061908A /* SomeeCards-Info.plist */,
+				573C6AB716275CA60061908A /* InfoPlist.strings */,
+				573C6ABA16275CA60061908A /* main.m */,
+				573C6ABC16275CA60061908A /* SomeeCards-Prefix.pch */,
+				573C6AC016275CA60061908A /* Default.png */,
+				573C6AC216275CA60061908A /* Default@2x.png */,
+				573C6AC416275CA60061908A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		573C6AD416275D020061908A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				573C6AD516275D020061908A /* adults and children.plist */,
+				573C6AD616275D020061908A /* animals.plist */,
+				573C6AD716275D020061908A /* baby.plist */,
+				573C6AD816275D020061908A /* birthday.plist */,
+				573C6AD916275D020061908A /* boys.plist */,
+				573C6ADA16275D020061908A /* bride.plist */,
+				573C6ADB16275D020061908A /* children.plist */,
+				573C6ADC16275D020061908A /* data.plist */,
+				573C6ADD16275D020061908A /* drinking.plist */,
+				573C6ADE16275D020061908A /* food.plist */,
+				573C6ADF16275D020061908A /* girls.plist */,
+				573C6AE016275D020061908A /* holidays.plist */,
+				573C6AE116275D020061908A /* machines.plist */,
+				573C6AE216275D020061908A /* medical.plist */,
+				573C6AE316275D020061908A /* men and women.plist */,
+				573C6AE416275D020061908A /* men.plist */,
+				573C6AE516275D020061908A /* music.plist */,
+				573C6AE616275D020061908A /* new (updated 3.17).plist */,
+				573C6AE716275D020061908A /* religion.plist */,
+				573C6AE816275D020061908A /* sports.plist */,
+				573C6AE916275D020061908A /* wedding.plist */,
+				573C6AEA16275D020061908A /* women.plist */,
+				573C6AEB16275D020061908A /* workplace.plist */,
+			);
+			name = Resources;
+			path = SomeeCards/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		573C6AA916275CA60061908A /* SomeeCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573C6AD116275CA60061908A /* Build configuration list for PBXNativeTarget "SomeeCards" */;
+			buildPhases = (
+				573C6AA616275CA60061908A /* Sources */,
+				573C6AA716275CA60061908A /* Frameworks */,
+				573C6AA816275CA60061908A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SomeeCards;
+			productName = SomeeCards;
+			productReference = 573C6AAA16275CA60061908A /* SomeeCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		573C6AA116275CA60061908A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Sergey Klimov";
+			};
+			buildConfigurationList = 573C6AA416275CA60061908A /* Build configuration list for PBXProject "SomeeCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 573C6A9F16275CA60061908A;
+			productRefGroup = 573C6AAB16275CA60061908A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				573C6AA916275CA60061908A /* SomeeCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		573C6AA816275CA60061908A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573C6AB916275CA60061908A /* InfoPlist.strings in Resources */,
+				573C6AC116275CA60061908A /* Default.png in Resources */,
+				573C6AC316275CA60061908A /* Default@2x.png in Resources */,
+				573C6AC516275CA60061908A /* Default-568h@2x.png in Resources */,
+				573C6AC816275CA60061908A /* MainStoryboard_iPhone.storyboard in Resources */,
+				573C6ACB16275CA60061908A /* MainStoryboard_iPad.storyboard in Resources */,
+				573C6AEC16275D020061908A /* adults and children.plist in Resources */,
+				573C6AED16275D020061908A /* animals.plist in Resources */,
+				573C6AEE16275D020061908A /* baby.plist in Resources */,
+				573C6AEF16275D020061908A /* birthday.plist in Resources */,
+				573C6AF016275D020061908A /* boys.plist in Resources */,
+				573C6AF116275D020061908A /* bride.plist in Resources */,
+				573C6AF216275D020061908A /* children.plist in Resources */,
+				573C6AF316275D020061908A /* data.plist in Resources */,
+				573C6AF416275D020061908A /* drinking.plist in Resources */,
+				573C6AF516275D020061908A /* food.plist in Resources */,
+				573C6AF616275D020061908A /* girls.plist in Resources */,
+				573C6AF716275D020061908A /* holidays.plist in Resources */,
+				573C6AF816275D020061908A /* machines.plist in Resources */,
+				573C6AF916275D020061908A /* medical.plist in Resources */,
+				573C6AFA16275D020061908A /* men and women.plist in Resources */,
+				573C6AFB16275D020061908A /* men.plist in Resources */,
+				573C6AFC16275D020061908A /* music.plist in Resources */,
+				573C6AFD16275D020061908A /* new (updated 3.17).plist in Resources */,
+				573C6AFE16275D020061908A /* religion.plist in Resources */,
+				573C6AFF16275D020061908A /* sports.plist in Resources */,
+				573C6B0016275D020061908A /* wedding.plist in Resources */,
+				573C6B0116275D020061908A /* women.plist in Resources */,
+				573C6B0216275D020061908A /* workplace.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		573C6AA616275CA60061908A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573C6ABB16275CA60061908A /* main.m in Sources */,
+				573C6ABF16275CA60061908A /* AppDelegate.m in Sources */,
+				573C6ACE16275CA60061908A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		573C6AB716275CA60061908A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573C6AB816275CA60061908A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		573C6AC616275CA60061908A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573C6AC716275CA60061908A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		573C6AC916275CA60061908A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573C6ACA16275CA60061908A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		573C6ACF16275CA60061908A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		573C6AD016275CA60061908A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		573C6AD216275CA60061908A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SomeeCards/SomeeCards-Prefix.pch";
+				INFOPLIST_FILE = "SomeeCards/SomeeCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		573C6AD316275CA60061908A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SomeeCards/SomeeCards-Prefix.pch";
+				INFOPLIST_FILE = "SomeeCards/SomeeCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		573C6AA416275CA60061908A /* Build configuration list for PBXProject "SomeeCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573C6ACF16275CA60061908A /* Debug */,
+				573C6AD016275CA60061908A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573C6AD116275CA60061908A /* Build configuration list for PBXNativeTarget "SomeeCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573C6AD216275CA60061908A /* Debug */,
+				573C6AD316275CA60061908A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 573C6AA116275CA60061908A /* Project object */;
+}

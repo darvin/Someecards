@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/177612.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/177612.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/473134.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/473134.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/1024375.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/1024375.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/2058102.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/2058102.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/2058166.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/2058166.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/2058230.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/2058230.png</string>
+	</array>
+	<array>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/thumb/4319095.png</string>
+		<string>http://www.someecards.com/proxy.php?url=usercards/cardimages/full/4319095.png</string>
+	</array>
+</array>
+</plist>
