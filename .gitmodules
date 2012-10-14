@@ -1,0 +1,6 @@
+[submodule "SomeeCards/Vendor/SDWebImage"]
+	path = SomeeCards/Vendor/SDWebImage
+	url = https://github.com/rs/SDWebImage.git
+[submodule "SomeeCards/Vendor/AQGridView"]
+	path = SomeeCards/Vendor/AQGridView
+	url = https://github.com/AlanQuatermain/AQGridView.git
